@@ -1,0 +1,25 @@
+{
+    "name": "mesahub/client",
+    "description": "PHP SDK for mesahub — access SQLite databases from PHP",
+    "version": "0.1.0",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["sqlite", "database", "mesahub", "sdk"],
+    "require": {
+        "php": ">=8.1",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mesahub\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mesahub\\Tests\\": "tests/"
+        }
+    }
+}
