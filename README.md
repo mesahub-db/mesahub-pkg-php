@@ -1,6 +1,6 @@
-# mesahub PHP SDK
+# MesaHub PHP SDK
 
-PHP SDK for [mesahub](https://mesahub.app) — access SQLite databases from PHP with raw SQL or a high-level table API.
+PHP SDK for [MesaHub](https://mesahub.app) — access SQLite databases from PHP with raw SQL or a high-level table API.
 
 ## Requirements
 
