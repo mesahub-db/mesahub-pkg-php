@@ -1,7 +1,6 @@
 {
     "name": "mesahub/client",
     "description": "PHP SDK for mesahub — access SQLite databases from PHP",
-    "version": "1.0.0",
     "type": "library",
     "license": "MIT",
     "keywords": [
