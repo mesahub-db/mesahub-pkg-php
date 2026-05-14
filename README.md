@@ -38,7 +38,7 @@ use Mesahub\MesahubClient;
 
 $client = new MesahubClient(
     apiKey: 'shs_your_api_key',        // from mesahub.app → Settings → API Keys
-    apiUrl: 'https://api.mesahub.app', // or your self-hosted core URL
+    apiUrl: 'https://api.mesahub.app', // or your dedicated / self-hosted instance URL
 );
 
 $db    = $client->db('my-app-db');    // your database slug from the dashboard
